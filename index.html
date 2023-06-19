@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" type="text/javascript"></script>
+  <script src="js/script.js" defer></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>My Portfolio</title>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul class="nav">
+      <li ><a href="#about-me" class="box-hover">About Me</a></li> 
+      <li ><a href="#experiences" class="box-hover">Experiences</a></li> 
+      <li ><a href="#" class="box-hover">Projects</a></li> 
+      <li ><a href="#" class="box-hover">Contact</a></li> 
+      <li ><a href="#" class="box-hover">Links</a></li> 
+    </ul>
+  </div>
+  <header class="header">
+    <div class="identity">
+      <span id="navButton"  onclick="openNav()">&#9776;</span>
+      <h1 id="logo"><a href="#">ELMAN PORTFOLIO</a></h1>
+      
+    </div>  
+    <nav class="navigation">
+      <ul class="nav">
+        <li ><a href="#about-me" class="box-hover">About Me</a></li> 
+        <li ><a href="#experiences" class="box-hover">Experiences</a></li> 
+        <li ><a href="#" class="box-hover">Projects</a></li> 
+        <li ><a href="#" class="box-hover">Contact</a></li> 
+        <li ><a href="#" class="box-hover">Links</a></li> 
+      </ul>
+    </nav>
+  </header>
+
+    <div id="intro">
+      <div id="outer" class="social-buttons">      
+                <!-- Github Button -->
+                <a href="https://github.com/elmanislam"  target="blank"  class="social-margin">
+                  <div class="social-icon github">
+                    <i class="fa fa-github-alt" aria-hidden="true" title="GitHub"></i>
+                  </div>
+                </a>  
+                <!-- LinkedIn Button -->
+                <a href="https://linkedin.com/in/elmanislam/" class="social-margin" target="blank">
+                  <div class="social-icon linkedin">
+                    <i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+                  </div> 
+                </a>
+                <!-- instagram Button -->
+                <a href="https://www.instagram.com/elmanislam/" target="blank"  class="social-margin">
+                  <div class="social-icon instagram">
+                    <i class="fa fa-instagram" aria-hidden="true" title="Instagram"></i>
+                  </div>
+                </a>
+                 <!-- facebook  Button -->
+                <a href="https://www.facebook.com/elman.islam/" target="blank" class="social-margin"> 
+                  <div class="social-icon facebook">
+                    <i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i> 
+                  </div>
+                </a>
+                <!-- Youtube Button -->
+                <a href="http://youtube.com/" target="blank"  class="social-margin">
+                  <div class="social-icon youtube">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                  </div> 
+                </a>
+                <!-- Behance Button -->
+                <a href="https://behance.com/"  target="blank" class="social-margin">
+                  <div class="social-icon behance">
+                    <i class="fa fa-behance" aria-hidden="true"></i>
+                  </div>
+                </a>
+                <!-- Soundcloud Button -->
+                <a href="http://soundcloud.com/" target="blank" class="social-margin">
+                  <div class="social-icon soundcloud">
+                    <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                  </div> 
+                </a>
+          <!-- TwitterButton -->
+                <a href="http://twitter.com/" target="blank" class="social-margin">
+                  <div class="social-icon twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </div> 
+                </a>
+        </div>
+
+
+      
+      <div class="textbox">
+        <h1><mark>ELMAN ISLAM,</mark> SOFTWARE ENGINEER</h1>
+        <p><em>University of Guelph, Co-op, 2020 - 2025</em></p>
+        <button type="button" onclick="openResume()">View Resume / CV</button>
+      </div>
+    </div>
+    <div class="background">
+      <div id="about-me">
+        <h2> <mark>ABOUT</mark> ME</h2>
+        <img id="elman-suit" src="images/elman-suit.png" alt="Elman wearing a vest">
+        <div class="text-content">
+          <p> Welcome to my website. I'm a 3rd Year Co-op student in Software Engineering with a major in Mathematics. 
+              I am currently attending the University of Guelph from 2020 - 2025. As an honour student, I have achieved a $3500 entrance scholarship 
+              and have maintained an excellent standing in my academics. I have a passion for building websites, writing automation tests, and working
+              with fellow developers to produce clean code. 
+              <!-- <br><br>
+              Now that the formal stuff is in the way, let me tell you why you just clicked on one of the best portfolio sites you'll ever lay your eyes on.
+              See that github link above? Yeah, that's not there for no reason. I've got an abundance of creative and fun personal projects and websites just
+              dangling in there, waiting for someone to fork them. Oh, and this website? I built this baby with no 3rd party sources. That's right! no Squarespace, 
+              no Wordpress, just me pumping out raw html, css, and Javascript with my own bare hands. And that's only the scratch of the surface of what my front-end
+              skills are capable of. -->
+              <br><br> 
+              Originally born in NYC to a Bengali family,
+              I grew up in Ontario, Canada, where I lived most of my life. My hobbies include working out, reading, and streaming myself playing games. 
+              Regarding my career, I'm into both front-end and back-end development, and I a build websites as a hobby.
+              I use object-oriented programs such as Java and Python, and have utilized a variety of coding tools such as VSC, GitHub, 
+              Microsoft SQL, and much more. I am especially skilled and familiar with testing tools and frameworks, such as Selenium, Eclipse IDE,
+              automation tests, non-functional tests, and much more that you'll soon find out about.
+          </p>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div id="experiences">
+      <h2> CO-OP <mark>EXPERIENCES</mark></h2>
+     
+      <div class="job" onclick="changeBackgroundSonova()">
+        <div class="photo-container">
+          <img class="job-photo" src="images/sonova-logo.png" alt="Sonova logo" style>
+        </div>
+        <div class="text-content">
+          <h3> Software Quality Assurance Analyst</h3>
+          <h4><mark>Sonova Inc. <em>Sept - Dec, 2022</em></mark></h4>
+
+          <p> I conducted a variety of test cases for the fitting software used to adjust and calibrate numerous complicated features and functions
+             for the meticulous and advanced hearing aids that the company produced. 
+          </p>
+          <form action="https://github.com/elmanislam/work-term-report/blob/main/index.html">
+            <input type="submit" value="Read More" />
+        </form>
+        </div>
+      </div>
+      <div class="job" onclick="changeBackgroundCooperators()">
+        <div class="photo-container">
+          <img class="job-photo" src="images/Cooperators-logo.png" alt="Co-operators logo">
+        </div>
+        <div class="text-content">
+          <h3> Test Automation Developer</h3>
+          <h4><mark>The Co-operators Group Limited, <em>May - Aug, 2023</em></h4>
+          <p> As a member of the automation team, I ran and created several test cases for the insurance quoting software by using Eclipse IDE and Jenkins.
+
+          </p>
+          <form action="https://google.com">
+            <input type="submit" value="Read More" />
+        </form>
+        </div>
+      </div>
+
+    </div>
+
+
+</body>
+</html>
