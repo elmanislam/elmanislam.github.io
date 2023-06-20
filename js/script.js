@@ -24,3 +24,6 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
+function openReportSonova() {
+  window.open('work-term-report/index.html');
+}

@@ -145,7 +145,7 @@ a {
 }
 
 
-.textbox button, input[type="submit"] {
+.textbox button, .job button {
 
   display: inline-block;
   outline: 0;
@@ -164,7 +164,7 @@ a {
 
 }
 
-.textbox button:hover, input[type="submit"]:hover {
+.textbox button:hover, .job button:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(17, 97, 73);
   box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
@@ -369,11 +369,12 @@ hr {
  
 }
 
-input[type="submit"] {
+.job button {
   padding: 0.8rem 1rem;
   background-color: var(--color-blue);
-  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+  box-shadow: rgba(19, 67, 170, 0.4) 0px 2px 3px;
 }
+
 .background {
 
   z-index: 1;
