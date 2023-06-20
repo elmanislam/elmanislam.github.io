@@ -12,7 +12,7 @@ function changeBackgroundCooperators() {
 }
 
 function openResume() {
-  window.open('resume.pdf');
+  window.open('resume-cooperators.pdf');
 }
 
 
