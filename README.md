@@ -4,3 +4,5 @@ This project is a website that functions as a portfolio for my accomplishements 
 -   open  [https://htmlpreview.github.io/](https://htmlpreview.github.io/)  in a new tab
 -   navigate to index.html in the github repository ([right here](https://github.com/elmanislam/elmanislam.github.io/blob/main/index.html))
 -   copy the web address and paste into the htmlpreview tab 
+
+🌟Fun fact: I made this website without using frameworks, pre-processors or any other fancy 3rd party tools like Bootstrap, SASS, or Wordpress. I wrote it with raw HTML, CSS and Javascript code entirely on my own.
