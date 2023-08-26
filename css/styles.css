@@ -115,8 +115,8 @@ a {
 #intro {
   box-sizing: inherit;
   position: relative;
+
   background-image: url(../images/header-image-2.jpg);
-  
   background-position: center;
   background-size: cover;
   padding: 10px;
@@ -128,6 +128,19 @@ a {
 
 }
 
+.bg-cooperators {
+
+  background-image: url(../images/Cooperators.jpg) !important;
+
+}
+
+.subheading {
+
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  text-shadow: 1px 1px 1px black;
+
+}
 .textbox {
   position: absolute;
   top: 25%;
@@ -491,7 +504,7 @@ hr {
   }
 
   #outer {
-    top:-30%;
+  
   }
 
 
@@ -499,8 +512,8 @@ hr {
 
 @media only screen and (max-height: 800px), screen and (max-width: 800px) {
   #outer {
-    top: 0%;
-    transform: scale(0.6);
+
+    transform: scale(0.8);
   }
 
   .textbox button, input[type="submit"] {
@@ -511,7 +524,7 @@ hr {
 
 @media only screen and (max-height: 600px), screen and (max-width: 450px) {
   #outer {
-    transform: scale(0.4);
+    transform: scale(0.6);
   }
 
   .textbox button, input[type="submit"] {
@@ -562,7 +575,7 @@ hr {
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .social-buttons{
   position: absolute;
-  top: 10%;
+  top: 30%;
 
   display: inline-block;
   background: rgba(256,256,256,0.5);

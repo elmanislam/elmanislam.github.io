@@ -27,3 +27,9 @@ function closeNav() {
 function openReportSonova() {
   window.open('work-term-report/index.html');
 }
+
+
+function openReportCooperators() {
+  window.open('pages/work-term-cooperators.html');
+}
+
