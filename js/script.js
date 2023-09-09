@@ -12,7 +12,7 @@ function changeBackgroundCooperators() {
 }
 
 function openResume() {
-  window.open('resume-cooperators.pdf');
+  window.open('Elman-Islam-Resume.pdf');
 }
 
 
