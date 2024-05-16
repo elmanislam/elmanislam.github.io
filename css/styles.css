@@ -146,6 +146,9 @@ a {
 
 }
 
+.bg-ncr {
+  background-image: url(../images/ncr.jpeg) !important;
+}
 .subheading {
 
   font-size: 1.5rem !important;
@@ -265,7 +268,7 @@ a {
  
 }
 
-#cooperators-office {
+#cooperators-office, #NCR-office {
   width: 700px;
   height: 450px;
   border: 0.7rem ridge var(--color-blue);
@@ -350,7 +353,6 @@ p {
   font-weight: 400;
 }
 
-
 .text-content {
 
   width: clamp(50%, 80%, 800px);
@@ -376,6 +378,13 @@ p {
 .job .text-content p{
   text-align: justify;
 }
+
+ .text-content ol {
+   font-size: clamp(1rem, min(3vw, 4.5vh), 1.3rem); 
+   color: var(--color-green);
+   line-height: 2;
+   text-wrap: wrap;
+ }
 
 hr {
   margin-top: 5rem;

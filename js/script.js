@@ -15,7 +15,9 @@ function openResume() {
   window.open('Elman-Islam-Resume.pdf');
 }
 
-
+function navigate() {
+   document.getElementById("about-me").scrollIntoView({ behavior: "smooth"});
+}
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }

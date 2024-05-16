@@ -81,7 +81,10 @@
 @media only screen and (max-width: 1000px) {
 
   .portfolios {
+    display: grid;
     grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 30px;
   }
 
 } 
